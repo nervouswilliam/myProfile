@@ -1,26 +1,150 @@
 import './experience.css';
+// import vorskin from './vorskin.png';
 
 export default function Experience()
 {
     return (
         <section>
-            <h1>my experiences</h1>
-            <p>I have done multiple projects such as:</p>
+            <div class = "header">
+                <h1>my experiences</h1>
+            </div>
+            
+            <div class = "title">
+                <b>My Projects</b>
+            </div>
+            
+
+            <div class = "content">
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>StocKing</h2></a></center>
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/stocking.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Project Duration:</h3>
+                            <p>May 2023 - June 2023</p>
+                        </center>
+                    </div>
+                    
+                </div>
+            
+            
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>Vorskin</h2></a></center>
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/vorskin.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Project Duration:</h3>
+                            <p>June 2022 - July 2022</p>
+                        </center>
+                    </div>
+                </div>
+            
+            
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>Merci</h2></a></center>
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/merci.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Project Duration:</h3>
+                            <p>September 2021 - February 2022</p>
+                        </center>
+                    </div>
+                </div>
+            
+            
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>My Profile</h2></a></center>
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/stocking.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Project Duration:</h3>
+                            <p>May 2023 - June 2023</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
             <br/>
-            <ul>
-                <li>
-                    <a href = "">Stocking</a>
-                </li>
-                <li>
-                    <a href = "">Vorskin</a>
-                </li>
-                <li>
-                    <a href = "">Merci</a>
-                </li>
-                <li>
-                    <a href = "">My profile</a>
-                </li>
-            </ul>
+
+            <div class = "title">
+                <b>Coding Competitions:</b>
+            </div>
+            <div class = "content">
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>International Collegiate Programming Contest</h2></a></center>                        
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/icpc.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Year participated:</h3>
+                            <p>January 2023</p>
+                        </center>
+                    </div>
+                </div>
+                
+                
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>National Programming Contest By Institute Teknologi Surabaya</h2></a></center>
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/npc.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Year Participated:</h3>
+                            <p>September 2023</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            
+            
+                
+            
+            <br/>
+            <div class = "title">
+                <b>Clubs Joined: </b>
+            </div>
+            
+            <div class = "content">
+                <div class = "column">
+                    <div class = "upper">
+                        <center><a href = ""><h2>Bina Nusantara Computer Club</h2></a></center>
+                    </div>
+                    <div class = "middle">
+                        <img src = "../pictures/bncc.png"/>
+                    </div>
+                    <div class = "lower">
+                        <center>
+                            <h3>Years Active:</h3>
+                            <p>April 2021 - April 2022</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+                
+            
+            
+
         </section>
         
     );
