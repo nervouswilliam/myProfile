@@ -4,11 +4,13 @@
     text-align: justify;
     font-weight: 900;
     font-size: 2rem;
+    position: relative;
+    left: 6%;
 }
 .header{
     font-size: 3rem;
     text-align: center;
-    color: black;
+    color: lightseagreen;
 }
 .content {
     width: 90%;

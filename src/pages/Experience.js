@@ -1,5 +1,4 @@
-import './experience.css';
-// import vorskin from './vorskin.png';
+import './css/experience.css';
 
 export default function Experience()
 {
