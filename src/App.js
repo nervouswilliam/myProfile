@@ -1,7 +1,7 @@
 import Navbar from './navbar.js'
 // eslint-disable-next-line no-unused-vars
 import Home from './pages/home.js';
-import AboutMe from './pages/aboutMe.js';
+import AboutMe from './pages/AboutMe.js';
 import UniversityLife from './pages/universityLife.js';
 import Experience from './pages/Experience.js';
 import MyGrades from './pages/myGrades.js';

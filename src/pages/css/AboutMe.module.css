@@ -1,0 +1,92 @@
+.header{
+    color:lightseagreen;
+    justify-content: center;
+    display:flex;
+    position: relative;
+    font-size: 300%;
+}
+.container{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    
+}
+.container .pictures img{
+    margin-right: 3%;
+    margin-top: 5%;
+    max-width:70%;
+    max-height: 70%;
+    border: 10px solid orange;
+}
+
+.containerBackground{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10%; */
+}
+
+.containerBackground .madrid img{
+    margin-left: 42%;
+    margin-top: 5%;
+    max-width:200%;
+    max-height: 200%;
+    border: 10px solid orange;
+}
+
+.containerBackground .background{
+    display: flex;
+    text-align: left;
+    width: 200%;
+    margin-left: 37%;
+}
+
+.container2 .hobbies img{
+    margin-left: 17%;
+    margin-top: 8%;
+    margin-bottom: 7%;
+    max-width:65%;
+    max-height: 65%;
+    border: 10px solid orange;
+}
+.container .Experience{
+    display: flex;
+    text-align: left;
+    width: 200%;
+}
+
+.container2{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.container2 .pictures2 img{
+    margin-right: 10%;
+    margin-top: 12%;
+    max-width:50%;
+    max-height: 50%;
+    border: 10px solid orange;
+}
+
+.container2 .traits{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+button{
+    background-color: orange;
+    width: 20%;
+    height: 10%;
+    font-size: 120%;
+    border-radius: 12px;
+}

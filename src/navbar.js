@@ -5,7 +5,7 @@ export default function navbar()
         <nav className = "nav">
             <Link to = "/" className = "myProfile">My Profile</Link>
             <ul>
-                <CustomLink to = "/aboutMe">About Me</CustomLink>
+                <CustomLink to = "/AboutMe">About Me</CustomLink>
                 <CustomLink to = "/universityLife">University Life</CustomLink>
                 <CustomLink to = "/Experience">Experience</CustomLink>
                 <CustomLink to = "/myGrades">My Grades</CustomLink>
