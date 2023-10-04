@@ -86,7 +86,10 @@ export default function AboutMe()
                     <br/>
                     To learn more about my projects, click here:
                     <br/>
-                    <button onClick={NavigateToExperience}>Projects</button>
+                    <div className = {styles.projects}>
+                        <button onClick={NavigateToExperience}>Projects</button>
+                    </div>
+                    
                 </p>
             </div>  
         </div>

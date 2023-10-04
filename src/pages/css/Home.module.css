@@ -4,20 +4,94 @@
 .container .pictures img{
     width: 100%;
     height: auto;
-    /* margin-left: 50%; */
-    margin-right: 10%;
-    /* padding-top: 3%; */
 }
 .container .opening{
     position : absolute;
-    top: 0%;
-    color: white;
-    padding: 17%;
-    margin-left: 10%;
+    margin-top: 3%;
+    color: lightcyan;
+    width: 100%;
+    top:30%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .opening p{
+    display: inline-block;
+    text-align: center;
+}
+
+.quotes{
+    position: absolute;
+    border: 3px solid orange;
+    border-radius: 12px;
+    max-width: 50%;
+    left: 33%;
+    top: 93%;
 }
 
 .quotes .content{
-    padding-top: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
+}
+.knowMe{
+    position: absolute;
+    top:110%;
+    width: 100%;
+    left: 3%;
+}
+
+.knowMe p{
+    display: inline-block;
+    text-align: center;
+}
+
+.resume button{
+    position:absolute;
+    top: 120%;
+    background-color: orange;
+    font-size: 2rem;
+    border-radius: 12px;
+}
+
+.socials{
+    position: absolute;
+    top: 133%;
+    width: 100%;
+    left: 5%;
+}
+
+.socials p{
+    display: inline-block;
+    text-align: center;
+}
+
+.media{
+    display: flex;
+}
+
+.media .Linkedin button{
+    position: absolute;
+    border-radius: 50%;
+    background-color: orange;
+    top: 140%;
+    left: 50%;
+}
+
+.media .Linkedin button img{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.media .Github button{
+    position: absolute;
+    background-color: orange;
+    border-radius: 50%;
+    max-width: 4%;
+    top: 140%;
+    left: 60%;
+}
+
+.media .Github button img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
 }
